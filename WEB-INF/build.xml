@@ -191,7 +191,7 @@
       </fileset>
     </zip>
 
-    <!-- Make a subset for the "example"  a distribution -->
+    <!-- Make a subset for the "example"  distribution -->
     <delete file="${dist}/xtf-example-${DSTAMP}.zip" quiet="true"/>
     <zip destfile="${dist}/xtf-example-${DSTAMP}.zip">
       <fileset dir="build-tmp">
