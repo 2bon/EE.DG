@@ -8,9 +8,9 @@ package net.sf.saxon.tinytree;
  */
 
 import java.io.IOException;
-import org.cdlib.xtf.util.PackedByteBuf;
-import org.cdlib.xtf.util.StructuredStore;
-import org.cdlib.xtf.util.SubStoreWriter;
+import net.dataninja.ee.util.PackedByteBuf;
+import net.dataninja.ee.util.StructuredStore;
+import net.dataninja.ee.util.SubStoreWriter;
 import net.sf.saxon.event.Builder;
 import net.sf.saxon.event.LocationProvider;
 import net.sf.saxon.event.ReceiverOptions;
@@ -382,10 +382,4 @@ public class HackedTinyBuilder extends Builder
 // See the License for the specific language governing rights and limitations under the License.
 //
 // The Original Code is: all this file.
-//
-// The Initial Developer of the Original Code is Michael H. Kay.
-//
-// Portions created by Martin Haye, marked by "MCH:", are Copyright (C) 2005, Regents of the University of California. All Rights Reserved.
-//
-// Contributor(s): Martin Haye.
 //
