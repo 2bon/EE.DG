@@ -32,7 +32,7 @@ public class Wiki_title_extraction {
     }
 
     public static int getCount () {
-        return count;
+        return count;;
     }
 
     public static void setCount (final int count) {
