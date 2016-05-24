@@ -242,7 +242,7 @@
   <!-- ================================================== clean -->
   <target name="clean"
         description="clean up" >
-    <!-- Delete the ${classes} and ${dist} directory trees -->
+    <!-- Delete the ${classes} and ${dist} directory trees 1 -->
     <delete dir="${classes}" quiet="true"/>
     <delete dir="${dist}" quiet="true"/>
     <delete dir="${doc}" quiet="true"/>
